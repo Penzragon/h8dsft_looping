@@ -63,7 +63,16 @@ numbers = [
     949,
 ]
 
+# using for loop
 for i in range(len(numbers)):
     if numbers[i] % 2 == 0 and i <= numbers.index(918):
         print(numbers[i])
+print("Done")
+
+# using while loop
+i = 0
+while i != len(numbers) and i <= numbers.index(918):
+    if numbers[i] % 2 == 0:
+        print(numbers[i])
+    i += 1
 print("Done")
